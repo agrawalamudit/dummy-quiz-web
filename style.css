@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#questions, .score p{
+    background-color: #fff;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.4);
+}
+#questions .ques{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.score p{
+    display: none;
+}
